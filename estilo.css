@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-areas: 
+    "aside header"
+    "aside main";
+    margin: 90px;
+    padding: 10px;
+}
+
+main {
+    display: grid;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+strong {
+    color: #DB7093;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 85%;
+}
+
+.titulo_principal {
+    font-size: 35px;
+}
+
+.descricao_principal {
+    font-size: 20px;
+}
+
+a {
+    background-color: #DB7093;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    display: inline-flex;
+    margin-bottom: 1em;
+    font-size: 20px;
+} 
+
+.botao {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
